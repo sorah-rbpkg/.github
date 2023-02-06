@@ -28,6 +28,7 @@ For details, go [dockerfiles](https://github.com/sorah-rbpkg/dockerfiles)
 ```
 deb https://cache.ruby-lang.org/lab/sorah/deb/ bionic main
 deb https://cache.ruby-lang.org/lab/sorah/deb/ focal main
+deb https://cache.ruby-lang.org/lab/sorah/deb/ jammy main
 deb https://cache.ruby-lang.org/lab/sorah/deb/ stretch main
 deb https://cache.ruby-lang.org/lab/sorah/deb/ buster main
 deb https://cache.ruby-lang.org/lab/sorah/deb/ bookworm main
