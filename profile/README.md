@@ -45,6 +45,7 @@ These packages are built with the following scripts, you may use these to reprod
 ## Caveats
 
 - YJIT is enabled since Ruby 3.2.
+- arm64 (aarch64) is available since Ruby 2.7.
 
 ## See also
 
