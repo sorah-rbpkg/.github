@@ -12,6 +12,8 @@ Note: This repository is not supported by Ruby core team. Maintained by Sorah, a
 - [ruby-defaults](https://github.com/sorah-rbpkg/ruby-defaults) (ruby, libruby, ruby-dev)
 - [rubygems-integration](https://github.com/sorah-rbpkg/rubygems-integration)
 
+Matrix of supported series and distros: see https://github.com/sorah/config/blob/master/etc/debian-packages.txt.
+
 ## Docker image
 
 https://gallery.ecr.aws/sorah/ruby
