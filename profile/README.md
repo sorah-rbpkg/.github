@@ -30,7 +30,7 @@ deb https://cache.ruby-lang.org/lab/sorah/deb/ bookworm main
 
 - Signed by [sorah-rbpkg (3F0F56A8)](https://sorah.jp/packaging/debian/3F0F56A8.pub.txt).
 - You may also use the releases page of GitHub repos linked above to obtain a built package.
-- Pinning src:ruby-defaults is recommended to avoid unintended upgrading Ruby series.
+- Pinning src:ruby-defaults is recommended to select Ruby series (2.7, 3.0, 3.1, 3.2, ...) and prevent from unintended upgrade.
 
 ## Build by your own
 
@@ -42,7 +42,7 @@ These packages are built with the following scripts, you may use these to reprod
 
 ## Caveats
 
-- YJIT is enabled.
+- YJIT is enabled since Ruby 3.2.
 
 ## See also
 
