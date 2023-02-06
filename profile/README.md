@@ -1,5 +1,7 @@
 # sorah-rbpkg
 
+<a href='https://ko-fi.com/J3J8CKMUU' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 [@sorah](https://github.com/sorah)'s Ruby binary packages for Ubuntu and Debian.
 
 Package sources are based on [Debian Ruby Team's work](https://salsa.debian.org/ruby-team) and maintained to keep closer to them. However, because of version disparity, most `ruby-*` Debian package are not expected to work with. You'll find sorah-rbpkg sourced packages useful to spin your own application.
