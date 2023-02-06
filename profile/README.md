@@ -4,7 +4,8 @@
 
 [@sorah](https://github.com/sorah)'s Ruby binary packages for Ubuntu and Debian.
 
-Package sources are based on [Debian Ruby Team's work](https://salsa.debian.org/ruby-team) and maintained to keep closer to them. However, because of version disparity, most `ruby-*` Debian package are not expected to work with. You'll find sorah-rbpkg sourced packages useful to spin your own application.
+
+Package sources are based on [Debian Ruby Team's work](https://salsa.debian.org/ruby-team) and maintained to keep closer to them. This project aims to deliver major and stable releases early using APT without upgrading distributions or waiting new release of distributions. Because of version and branch disparity, most `ruby-*` Debian package are not expected to work with. You'll find sorah-rbpkg sourced packages useful to spin your own application.
 
 Note: This repository is not supported by Ruby core team. Maintained by Sorah, a Ruby committer, individually.
 
