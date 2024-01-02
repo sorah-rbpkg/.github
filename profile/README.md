@@ -11,7 +11,7 @@ Note: This repository is not supported by Ruby core team. Maintained by Sorah, a
 
 ## Packages
 
-- [rubyN.M](https://github.com/sorah-rbpkg/ruby) (e.g. ruby2.7, ruby3.0, ruby3.1, ruby3.2, ...)
+- [rubyN.M](https://github.com/sorah-rbpkg/ruby) (e.g. ruby2.7, ruby3.0, ruby3.1, ruby3.2, ruby3.3...)
 - [ruby-defaults](https://github.com/sorah-rbpkg/ruby-defaults) (ruby, libruby, ruby-dev)
 - [rubygems-integration](https://github.com/sorah-rbpkg/rubygems-integration)
 
