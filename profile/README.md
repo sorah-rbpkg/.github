@@ -32,6 +32,7 @@ deb https://cache.ruby-lang.org/lab/sorah/deb/ jammy main
 deb https://cache.ruby-lang.org/lab/sorah/deb/ stretch main
 deb https://cache.ruby-lang.org/lab/sorah/deb/ buster main
 deb https://cache.ruby-lang.org/lab/sorah/deb/ bookworm main
+deb https://cache.ruby-lang.org/lab/sorah/deb/ bullseye main
 ```
 
 - Signed by [sorah-rbpkg (3F0F56A8)](https://sorah.jp/packaging/debian/3F0F56A8.pub.txt).
