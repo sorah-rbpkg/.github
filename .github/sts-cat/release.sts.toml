@@ -1,0 +1,7 @@
+issuer = "https://a1fb08da-0b19-4569-b51e-e7af6dd2cef4.tokens.sts.global.api.aws"
+subject = "arn:aws:iam::341857463381:role/DebReleaser"
+repositories = ["ruby", "ruby-defaults", "rubygems-intergration"]
+max_token_lifetime = 3600
+
+[permissions]
+contents = "read"
