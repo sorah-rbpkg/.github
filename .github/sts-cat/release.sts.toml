@@ -4,4 +4,4 @@ repositories = ["ruby", "ruby-defaults", "rubygems-intergration"]
 max_token_lifetime = 3600
 
 [permissions]
-contents = "read"
+contents = "write"
