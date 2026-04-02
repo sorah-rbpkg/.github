@@ -11,7 +11,7 @@ Note: This repository is not supported by Ruby core team. Maintained by Sorah, a
 
 ## Packages
 
-- [rubyN.M](https://github.com/sorah-rbpkg/ruby) (e.g. ruby2.7, ruby3.0, ruby3.1, ruby3.2, ruby3.3...)
+- [rubyN.M](https://github.com/sorah-rbpkg/ruby) (e.g. ruby2.7, ruby3.0, ruby3.1, ruby3.2, ruby3.3, ruby3.4, ruby4.0...)
 - [ruby-defaults](https://github.com/sorah-rbpkg/ruby-defaults) (ruby, libruby, ruby-dev)
 - [rubygems-integration](https://github.com/sorah-rbpkg/rubygems-integration)
 
@@ -30,11 +30,13 @@ deb https://cache.ruby-lang.org/lab/sorah/deb/ bionic main
 deb https://cache.ruby-lang.org/lab/sorah/deb/ focal main
 deb https://cache.ruby-lang.org/lab/sorah/deb/ jammy main
 deb https://cache.ruby-lang.org/lab/sorah/deb/ noble main
+deb https://cache.ruby-lang.org/lab/sorah/deb/ resolute main
 
 deb https://cache.ruby-lang.org/lab/sorah/deb/ stretch main
 deb https://cache.ruby-lang.org/lab/sorah/deb/ buster main
 deb https://cache.ruby-lang.org/lab/sorah/deb/ bookworm main
 deb https://cache.ruby-lang.org/lab/sorah/deb/ bullseye main
+deb https://cache.ruby-lang.org/lab/sorah/deb/ trixie main
 ```
 
 - Signed by [sorah-rbpkg (3F0F56A8)](https://sorah.jp/packaging/debian/3F0F56A8.pub.txt).
