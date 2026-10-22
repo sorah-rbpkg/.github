@@ -1,7 +1,7 @@
 issuer = "https://token.actions.githubusercontent.com"
 # Immutable subject: owner and repository IDs, so a recreated or renamed repository does not match.
 subject = "repo:sorah-rbpkg@19392696/build@1429643459:environment:release"
-repositories = ["ruby"]
+repositories = ["ruby", "ruby-defaults", "rubygems-integration"]
 max_token_lifetime = 3600
 
 # Only the release job of sorah-rbpkg/build's _distro.yml on main, not any job in the release environment.
