@@ -1,0 +1,12 @@
+issuer = "https://token.actions.githubusercontent.com"
+# Immutable subject: owner and repository IDs, so a recreated or renamed repository does not match.
+subject = "repo:sorah-rbpkg@19392696/build@1429643459:environment:nightly"
+repositories = ["dockerfiles"]
+max_token_lifetime = 3600
+
+# Only the roll job of sorah-rbpkg/build's nightly.yml on main, which commits nightly.json.
+[claim_pattern]
+job_workflow_ref = "sorah-rbpkg/build/\\.github/workflows/nightly\\.yml@refs/heads/main"
+
+[permissions]
+contents = "write"

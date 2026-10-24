@@ -1,0 +1,12 @@
+issuer = "https://token.actions.githubusercontent.com"
+# dockerfiles keeps the default subject, which its AWS role trusts.
+subject = "repo:sorah-rbpkg/dockerfiles:ref:refs/heads/master"
+repositories = ["build"]
+max_token_lifetime = 3600
+
+# Downloads the nightly packages, artifacts of sorah-rbpkg/build, for the images of N.M.next.
+[claim_pattern]
+job_workflow_ref = "sorah-rbpkg/dockerfiles/\\.github/workflows/build\\.yml@refs/heads/master"
+
+[permissions]
+actions = "read"
